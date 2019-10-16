@@ -19,7 +19,7 @@ var password = nameUtente + surname + color + 19;
 // console.log(password);
 
 // stringa dopo inserimento cognome
-var creaPassword = saluto + " " + surname +", la tua password è: ";
+var creaPassword = saluto + " " + surname +", la tua password è : ";
 // console.log(creaPassword);
 
 // stringa password creata

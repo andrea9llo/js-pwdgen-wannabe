@@ -1,0 +1,17 @@
+body{
+  background-color: #0069ff;
+}
+#ex-var, #ex-var1{
+  width: 60%;
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 10px;
+}
+#ex-var{
+  font-size: 25px;
+  background-color: white;
+}
+#ex-var1{
+  font-size: 20px;
+  background-color: green;
+}
