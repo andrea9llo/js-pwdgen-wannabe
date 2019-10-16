@@ -25,3 +25,15 @@ var creaPassword = saluto + " " + surname +", la tua password è: ";
 // stringa password creata
 var passwordGene = creaPassword + password;
 // console.log(passwordGene);
+
+// stringa finale dopo creazione password
+var testo = "Hai creato un (insicurissimo) password generator!";
+// console.log(testo);
+
+// creo stringa per output password
+document.getElementById('ex-var').innerHTML = passwordGene;
+
+// creo stringa per output testo
+var htmlElement = document.getElementById('ex-var1');
+
+htmlElement.innerHTML = testo;
